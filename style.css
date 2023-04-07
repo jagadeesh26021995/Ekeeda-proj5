@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&family=Poppins:wght@300&display=swap');
+html{
+    margin:0;
+    padding:0;
+    background:url('bg2.jpg');
+    
+    
+}
+.frame{
+    width:300px;
+    height:600px;
+    margin:auto;
+    margin-top: 50px;
+    /*border: 2px solid black;*/
+    overflow:visible;
+    background-color:hsla(0, 100%, 30%, 0.7);
+    border-radius: 10%;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+   
+
+}
+input[type=text]
+{
+    width:250px;
+    height:60px;
+    
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 10%;
+}
+input[type=button]
+{
+    width: 60px;
+    height: 70px;;
+    margin-left: 10px;
+    border-radius: 20%;
+    font-size: 25px;
+    border: none;
+}
+#clear
+{
+    width:250px;
+    margin-left: 20px;
+}
+h2
+{
+    color:rgb(98, 67, 8);
+    font-size:50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
